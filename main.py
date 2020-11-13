@@ -13,12 +13,13 @@ params = {'confidence': .78,
                    './PNG/Ores/arkonor.PNG',
                    './PNG/Ores/hemorphite.PNG',
                    './PNG/Ores/hedbergite.PNG'],
+          'screenshot': True,
           'signal': 'PNG/signals/cluster.PNG',
-          't_approach': 120, # ensure it's long enough or mb.locate won't find lock
-          't_check': 60,
-          't_mine': 20*60,
+          't_approach': 60, # ensure it's long enough or mb.locate won't find lock
+          't_check': 180,
+          't_hide': 15*60, 
+          't_mine': 15*60, # not in real time 
           't_station2': 60,
-          't_station3': 60,
           't_undock': 15,
           't_warp': 30}
 
